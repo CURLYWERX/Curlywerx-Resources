@@ -1,6 +1,6 @@
 # ⚡ Curlywerx — Modern AI Template Vault & Prompt Studio
 
-**Curlywerx** is a production-grade, offline-first Android application designed for prompt engineers, researchers, and creators. Organize, customize, and execute AI prompts across any major LLM engine in seconds with dynamic placeholder variables and built-in Claude prompt synthesis.
+**Curlywerx** is a production-grade, offline-first Android application designed for prompt engineers, researchers, and creators. Organize, customize, and execute AI prompts across any major LLM engine in seconds with dynamic placeholder variables and built-in prompt synthesis.
 
 ---
 
