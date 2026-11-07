@@ -1,46 +1,38 @@
 {
-  "name": "Curlywerx Marketplace",
-  "description": "Verified community and expert prompt templates for Curlywerx",
-  "version": "1.0.0",
   "categories": [
     {
       "id": "automotive",
       "name": "Automotive",
-      "description": "Field-ready vehicle diagnostics, wiring, and maintenance protocols",
       "items": [
         {
-          "id": "automotive_obd2_fault_deep_analyzer",
-          "title": "OBD2 DTC Deep Fault Analyzer",
-          "description": "In-depth diagnostic trouble code analysis with freeze-frame interpretations and verification steps.",
-          "category": "Automotive",
+          "id": "obd2-fault",
           "type": "single",
-          "tags": "automotive, obd2, dtc, diagnostics, mechanic",
-          "url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/automotive/obd2_fault.json"
+          "title": "OBD2 DTC Deep Fault Analyzer",
+          "description": "Decodes raw hexadecimal diagnostic trouble codes into plain English step-by-step repair guides.",
+          "download_url": "https://jsdelivr.net"
         },
         {
-          "id": "automotive_fluids_electrical_pack",
-          "title": "Automotive Fluids & Electrical Pack",
-          "description": "Comprehensive 2-prompt pack covering automotive fluid testing and 12V parasitic draw isolation.",
-          "category": "Automotive",
+          "id": "auto-pack",
           "type": "pack",
-          "tags": "automotive, fluids, electrical, multimeter, maintenance",
-          "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/automotive/pack/pack.json"
+          "title": "Essential Auto Care Pack",
+          "description": "A 2-part toolkit covering fluid capacities and complex electrical layouts.",
+          "prompt_urls": [
+            "https://jsdelivr.net",
+            "https://jsdelivr.net"
+          ]
         }
       ]
     },
     {
       "id": "productivity",
       "name": "Productivity",
-      "description": "High-leverage cognitive workflows, time-blocking, and focus protocols",
       "items": [
         {
-          "id": "productivity_deep_work_sprint",
-          "title": "Ultra-Focus Deep Work Sprint Planner",
-          "description": "Structure 90-minute hyper-focus blocks with environmental and attention-deficit safeguards.",
-          "category": "Productivity",
+          "id": "deep-work",
           "type": "single",
-          "tags": "productivity, deep-work, focus, time-management, sprint",
-          "url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/productivity/deep_work_sprint.json"
+          "title": "Deep Work Sprint Designer",
+          "description": "Structures high-intensity block schedules to eliminate distractions.",
+          "download_url": "https://jsdelivr.net"
         }
       ]
     }
