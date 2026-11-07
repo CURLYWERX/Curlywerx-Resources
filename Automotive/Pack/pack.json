@@ -1,0 +1,10 @@
+{
+  "id": "automotive_fluids_electrical_pack",
+  "title": "Automotive Fluids & Electrical Pack",
+  "category": "Automotive",
+  "description": "Specialized automotive service pack including fluid contamination evaluation and parasitic draw isolation.",
+  "promptUrls": [
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/automotive/pack/fluids.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/automotive/pack/electrical.json"
+  ]
+}

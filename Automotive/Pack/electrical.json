@@ -1,0 +1,7 @@
+{
+  "title": "12V Battery Parasitic Draw Isolation Protocol",
+  "category": "Automotive",
+  "description": "Step-by-step millivolt drop and fuse-by-fuse parasitic drain diagnostic protocol.",
+  "tags": "automotive, electrical, battery, parasitic-drain, multimeter",
+  "content": "# Role\nYou are an Automotive Electrical Diagnostic Specialist.\n\n# Task\nGuide me through systematic parasitic current draw isolation on a {{vehicle_model: 2019 Toyota RAV4}} experiencing premature battery drain.\n\n# Current Metrics\n- Quiescent Current Draw: {{measured_draw_ma: 320mA}} (Target: < 50mA)\n- Vehicle Sleep Timeout: {{sleep_delay_minutes: 45 minutes}}\n- Aftermarket Accessories Installed: {{aftermarket_gear|*None / Factory Stock, Dashcam Hardwired, Remote Starter, Amplifiers & Subs}}\n\n# Remediation Steps\n1. Safe meter connection in series without waking modules.\n2. Fuse box millivolt-drop test chart.\n3. Module sleep troubleshooting and network CAN bus awake diagnostics."
+}
