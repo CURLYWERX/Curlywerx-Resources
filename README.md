@@ -40,8 +40,26 @@
   * **1-Tap Web Mode:** Launch your chosen AI web portal with pre-engineered meta-prompts automatically copied to your clipboard (zero API key required), then parse the response with 1 tap.
   * **Offline Blueprint Mode:** Instant rule-based prompt synthesis that works offline without an internet connection.
 
+### 🌐 Online Prompt Marketplace & Remote CDN Library
+* **1-Tap Community Hub:** Access the online prompt library directly from the Home top bar (`LocalLibrary` icon).
+* **Zero Rate Limits via CDN:** Fetches remote prompt catalogs and packages asynchronously via high-speed jsDelivr CDN caching (`https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/marketplace_catalog.json`), completely bypassing GitHub API rate limits.
+* **Prompt Packs & Single Templates:** Preview and install individual templates or multi-prompt packs with 1-tap installation directly into Room SQLite with conflict-free deduplication.
+* **Resilient URL Fallback & Casing Engine:** Auto-resolves URL directory casing and provides transparent fallback to raw GitHub endpoints.
+
+### 🌿 Built-in Botanical Category & Image Analysis
+* **Universal Visual Botanical Profiler:** Field botanist, toxicologist, and ethnobotanist image-analysis template featuring household safety profiles, geographic location grounding, matching strictness, and medical disclaimers.
+* **Wild Edible Plant Foraging Guide:** Vascular plant foraging, edibility and utility matrices, pathogen and toxin safety processing rules, and ethical harvesting protocols.
+* **Weed & Pest Diagnostic Guide:** Agronomic visual inspection protocol with organic, biocontrol, chemical, and IPM treatment methodologies.
+
+### ⚡ Technical Maker & Media Built-in Blueprints
+* **Hardware Pinout & Wiring Reference:** Development board reference (Arduino Uno/Nano/Mega, ESP32-C3/S3, Raspberry Pi 4/5/Pico) with component pinouts, communication protocols, and safety validation.
+* **Linux Terminal Command Finder:** Instant shell/terminal command solver across Raspberry Pi OS/Debian, Ubuntu Server, and Alpine Linux with safety notes and syntax flags.
+* **Streaming Content Curator:** High-fidelity entertainment recommendations with chronological ordering, 38+ categorized genres, and 8+ major streaming service integrations.
+
 ### 📂 Organization, Search & Favorites
-* Categorize templates into Coding, Writing, Productivity, Marketing, Audio, Video, Streaming, or custom categories.
+* Categorize templates into Coding, Writing, Productivity, Marketing, Audio, Video, Streaming, Botanical, or custom categories.
+* **Dynamic Custom Categories:** Any custom category entered when creating a template is instantly registered in the global category manager, database table, and Home filter chips.
+* **Strict Alphabetical AI Engine Ordering:** All default and user-added custom AI engines (e.g. Mistral, Copilot, Cohere) are automatically alphabetized across all pickers and menus.
 * Instant fuzzy search across titles, template bodies, and hashtags (`#tags`).
 * Star templates as favorites with dedicated one-tap filter toggling.
 
@@ -58,7 +76,7 @@
 * **UI Toolkit:** Jetpack Compose with Material Design 3 (M3)
 * **Architecture:** MVVM (Model-View-ViewModel) + StateFlow
 * **Database:** Android Room with KSP
-* **Networking & JSON:** Kotlinx Coroutines, Android Networking, JSON serialization
+* **Networking & CDN:** OkHttp, Coroutines, jsDelivr CDN, GitHub Raw fallback
 * **AdMob & Monetization:** Rewarded Ad slot unlock system + Google Play Billing foundation
 * **Compatibility:** Android 8.0+ (API 26+)
 
@@ -80,8 +98,10 @@ Curlywerx features a distinctive developer-first brand identity built around the
 
 ## 📦 Downloads & Releases
 
-* **Latest APK (v1.7.0):** `Curlywerx-v1.7.0-debug.apk`
-* **Complete Source Code (v1.7.0):** `Curlywerx-v1.7.0-source.zip`
+* **Latest APK (v1.9.0):** `Curlywerx-v1.9.0-debug.apk`
+* **Complete Source Code (v1.9.0):** `Curlywerx-v1.9.0-source.zip`
+* **Previous APK (v1.8.0):** `Curlywerx-v1.8.0-debug.apk`
+* **Previous Source (v1.8.0):** `Curlywerx-v1.8.0-source.zip`
 
 ---
 
@@ -92,12 +112,38 @@ Curlywerx features a distinctive developer-first brand identity built around the
 3. Scroll down to the bottom **About Curlywerx** card.
 4. The **Version** row displays the live installed version and build number, e.g.:
    ```
-   Version: v1.7.0 (Build 9)
+   Version: v1.9.0 (Build 11)
    ```
 
 ---
 
 ## 📝 Changelog / Version History
+
+### [v1.9.0] - (Build 11) - 2026-11-08
+* **Online Prompt Library Marketplace:** Added TopAppBar marketplace action (`LocalLibrary` icon) connected to a public CDN repository to browse, preview, and 1-tap install community and expert prompt templates and prompt packs.
+* **Rate-Limit-Free CDN Architecture:** Uses jsDelivr CDN (`cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/...`) for rapid cached downloads without hitting GitHub API limits.
+* **Resilient URL & Casing Fallback:** Built-in auto-casing candidate resolution and raw GitHub fallback automatically handles directory casing differences on remote repositories.
+* **Built-in Botanical Category & Prompts:**
+  * Added new default category `"Botanical"`.
+  * Added *"Universal Visual Botanical Profiler"* for computer-vision plant toxicity, taxonomy, and safety profile reports.
+  * Added *"Wild Edible Plant Foraging Guide"* for vascular plant foraging and pathogen/toxin processing rules.
+  * Added *"Weed and Pest Diagnostic Guide"* for agronomic pests with organic, chemical, and IPM treatment protocols.
+* **Maker & Coding Blueprints:**
+  * Added *"Hardware Pinout and Wiring Reference"* covering Arduino (Uno, Nano, Mega), ESP32 (C3, S3), Raspberry Pi (4, 5, Pico) pinouts, power calculations, and test firmware.
+  * Added *"Linux Terminal Command Finder"* providing exact shell commands and syntax breakdowns across distributions.
+* **Enhanced Streaming Content Curator:** Upgraded *"Streaming Content"* with 38+ categorized genres, multi-platform streaming selectors (Netflix, Hulu, Max, Prime Video, Disney+, Apple TV+, etc.), and chronological ordering.
+* **Dynamic Custom Categories:** Adding a template with a custom category name automatically adds that category to the global database table and immediately displays it in Home filter chips and category pickers.
+* **Strict Alphabetical AI Engine Ordering:** All default and user-added custom AI engines (e.g., Mistral, Copilot, Cohere) are strictly and dynamically sorted in alphabetical order.
+* **Settings & About Updates:** Updated About card with Prompt Marketplace and Prompt Engineer info, and integrated v1.9.0 What's New release notes.
+
+### [v1.8.0] - (Build 10) - 2026-10-08
+* **Template Architect Variable Engine Alignment:** Upgraded the Universal Prompt Engineer (API, Web, and Offline synthesizer) to strictly follow the full mobile variable syntax specification.
+* **Strict Variable Naming:** Variable placeholders generated by AI now strictly use underscores without spaces: `{{variable_name}}`.
+* **Alphabetical Option Choice Chips:** Option choices `{{variable_name|Option1, Option2, ...}}` are strictly sorted alphabetically by AI with unlimited choices allowed.
+* **Default Values & Pre-Selected Chips:** Pre-selects default options using asterisk syntax `{{variable_name|*Option1, Option2}}` in correct alphabetical position, and generates default values `{{variable_name: DefaultValue}}` or combined `{{variable: Def | Opt1, Opt2}}`.
+* **Alphabetical AI Engine Selection:** The AI Engine switcher (Prompt Engineer screen & Settings) is strictly sorted alphabetically (`ChatGPT`, `Claude`, `DeepSeek`, `Gemini`, `Grok`, `Perplexity`). Any user-added custom engines (via Settings or the new `+ Add` button) are dynamically integrated in alphabetical order.
+* **Comprehensive Multi-Engine System Prompts & Web Meta-Prompts:** Centralized architecture rules across Claude, OpenAI, Google Gemini, and DeepSeek direct APIs, as well as 1-tap browser web generation.
+* **Rewritten Offline Blueprints:** Refactored built-in offline templates across Coding, Streaming, Marketing, Writing, Auto Repair, Culinary, Productivity, and Gaming to leverage choice chips, pre-selected defaults, and strict variable formatting.
 
 ### [v1.7.0] - (Build 9) - 2026-10-06
 * **Live Word & Approximate Token Counter:** Added live `~150 Words • ~195 Tokens` badge to the template editor (`AddEditTemplateSheet`), the filled prompt preview (`TemplateDetailScreen`), and the Prompt Engineer synthesis preview to help users monitor model context window usage.
