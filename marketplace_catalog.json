@@ -40,11 +40,24 @@
         {
           "id": "coding_esp32_microcontroller_deep_diagnostic",
           "title": "ESP32 Microcontroller Deep Diagnostic",
-          "description": "Production-grade C++ setup, peripheral initialization, and memory verification for ESP32 on Arduino.",
+          "description": "Hardware diagnostic, pinout verification, and crash debugging for ESP32 systems.",
           "category": "Coding",
           "type": "single",
-          "tags": "coding, esp32, microcontroller, arduino, diagnostics",
-          "download_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Coding/esp32_microcontroller_deep_diagnostic.json"
+          "tags": "coding, esp32, embedded, hardware",
+          "url": "https://jsdelivr.netCoding/esp32_microcontroller_deep_diagnostic.json"
+        },
+        {
+          "id": "coding_esp32_industrial_iot_pack_pack",
+          "title": "ESP32 Industrial IoT Pack",
+          "description": "Comprehensive 2-part development toolkit covering low-power deep sleep optimization and secure wireless fallback routines.",
+          "category": "Coding",
+          "type": "pack",
+          "tags": "coding, esp32, iot, firmware, sleep, mesh",
+          "packUrl": "https://jsdelivr.netCoding/Pack/pack.json",
+          "promptUrls": [
+            "https://jsdelivr.netCoding/Pack/secure_mesh_wireless_fallback.json",
+            "https://jsdelivr.netCoding/Pack/microamp_hardware_deep_sleep_optimization.json"
+          ]
         }
       ]
     },

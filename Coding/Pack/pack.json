@@ -1,4 +1,11 @@
 {
+  "id": "coding_esp32_industrial_iot_pack_pack",
+  "title": "ESP32 Industrial IoT Pack",
   "pack_title": "ESP32 Industrial IoT Pack",
-  "total_files": 2
+  "category": "Coding",
+  "description": "Comprehensive 2-part development toolkit covering low-power deep sleep optimization and secure wireless fallback routines.",
+  "promptUrls": [
+    "https://jsdelivr.netCoding/Pack/secure_mesh_wireless_fallback.json",
+    "https://jsdelivr.netCoding/Pack/microamp_hardware_deep_sleep_optimization.json"
+  ]
 }
