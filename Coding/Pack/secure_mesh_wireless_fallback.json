@@ -1,0 +1,7 @@
+{
+  "title": "SECURE MESH WIRELESS FALLBACK",
+  "category": "Coding",
+  "description": "A 2-part development toolkit covering secure WiFi fallback mesh configurations and hardware-level sleep optimizations.",
+  "tags": "coding, esp32, iot, freeertos, embedded",
+  "content": "PART 1: SECURE MESH WIRELESS FALLBACK\r\nAct as an expert embedded systems security engineer. Design a resilient FreeRTOS dual-core network connectivity routine for an {{Board Type|*ESP32-S3, ESP32-WROOM}}.\r\n\r\nThe system must satisfy these criteria:\r\n1. Establish a primary connection to a local station router using WPA3 credentials. If connection time exceeds {{Timeout Seconds: 15}}, instantly spin up a local hidden Access Point (AP) mode with a dynamic captive portal.\r\n2. Implement a safe hardware watchdog timer (WDT) on Core 0 that automatically triggers a full system reset if the main loop hangs for more than {{Watchdog Limit Sec: 8}} seconds."
+}
