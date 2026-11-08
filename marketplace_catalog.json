@@ -114,6 +114,22 @@
           "url": "https://jsdelivr.netBotanical/universal_visual_botanical_profiler.json"
         }
       ]
+    },
+    {
+      "id": "fishing",
+      "name": "Fishing",
+      "description": "Fishing systems development engineering workflows",
+      "items": [
+        {
+          "id": "fishing_overland_florida_wade_fishing_tracker",
+          "title": "Overland Florida Wade Fishing Tracker",
+          "description": "Tactical wade fishing playbook optimized for Florida coastlines, tracking real-time tidal shifts, target species behavior, and technical gear selection.",
+          "category": "Fishing",
+          "type": "single",
+          "tags": "fishing, wade-fishing, salt-water, florida, angler, tactics",
+          "url": "https://jsdelivr.netFishing/overland_florida_wade_fishing_tracker.json"
+        }
+      ]
     }
   ]
 }
