@@ -2,6 +2,6 @@
   "title": "MICRO-AMP HARDWARE DEEP SLEEP OPTIMIZATION",
   "category": "Coding",
   "description": "Comprehensive 2-part development toolkit covering low-power deep sleep optimization and secure wireless fallback routines.",
-  "tags": "coding, esp32, iot, firmware, sleep, mesh",
+  "tags": "\u2022 coding, esp32, iot, firmware, sleep, mesh",
   "content": "PART 2: MICRO-AMP HARDWARE DEEP SLEEP OPTIMIZATION\r\nAct as a low-power hardware architect. Configure an advanced deep sleep matrix for an {{ESP32 Chip Variant|*ESP32-S3, ESP32-C3}} tracking multiple sensor wake events.\r\n\r\nThe routine must implement the following power-saving parameters:\r\n1. Isolate the internal Real-Time Clock (RTC) domain, shutting down all non-essential internal rails to drop current consumption below {{Target Microamps: 15}}uA.\r\n2. Configure external wake-up triggers using the RTC GPIO pins, enabling an active-low wake sequence on Pin {{Wake Pin: GPIO_NUM_4}} from an attached PIR or accelerometer.\r\n3. Cache crucial state parameters inside the `RTC_DATA_ATTR` memory segment so data persists across sleep boundaries without writing to flash wear cycles."
 }

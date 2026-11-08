@@ -36,7 +36,7 @@
           "description": "In-depth diagnostic trouble code analysis with freeze-frame interpretations and verification steps.",
           "category": "Automotive",
           "type": "single",
-          "tags": "\u2022 automotive, obd2, dtc, diagnostics, mechanic",
+          "tags": "automotive, obd2, dtc, diagnostics, mechanic",
           "url": "https://jsdelivr.netAutomotive/obd2_dtc_deep_fault_analyzer.json"
         },
         {
@@ -74,7 +74,7 @@
           "description": "Comprehensive 2-part development toolkit covering low-power deep sleep optimization and secure wireless fallback routines.",
           "category": "Coding",
           "type": "pack",
-          "tags": "coding, esp32, iot, firmware, sleep, mesh",
+          "tags": "\u2022 coding, esp32, iot, firmware, sleep, mesh",
           "packUrl": "https://jsdelivr.netCoding/Pack/pack.json",
           "promptUrls": [
             "https://jsdelivr.netCoding/Pack/secure_mesh_wireless_fallback.json",
@@ -110,7 +110,7 @@
           "description": "Field identification and toxicology profiling template for vascular plant classification and safety processing.",
           "category": "Botanical",
           "type": "single",
-          "tags": "\u2022 botanical, foraging, plant, identification, toxicology",
+          "tags": "botanical, foraging, plant, identification, toxicology",
           "url": "https://jsdelivr.netBotanical/universal_visual_botanical_profiler.json"
         }
       ]
