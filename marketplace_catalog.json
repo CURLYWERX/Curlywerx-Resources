@@ -15,7 +15,7 @@
           "category": "Automotive",
           "type": "single",
           "tags": "automotive, obd2, dtc, diagnostics, mechanic",
-          "download_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/automotive/obd2_fault.json"
+          "download_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/obd2_fault.json"
         },
         {
           "id": "automotive_fluids_electrical_pack",
@@ -24,10 +24,27 @@
           "category": "Automotive",
           "type": "pack",
           "tags": "automotive, fluids, electrical, multimeter, maintenance",
+          "pack_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/pack.json",
           "prompt_urls": [
-            "https://jsdelivr.net",
-            "https://jsdelivr.net"
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/fluids.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/electrical.json"
           ]
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "name": "Coding",
+      "description": "Embedded systems, microcontroller debugging, firmware setups, and software engineering",
+      "items": [
+        {
+          "id": "coding_esp32_microcontroller_deep_diagnostic",
+          "title": "ESP32 Microcontroller Deep Diagnostic",
+          "description": "Production-grade C++ setup, peripheral initialization, and memory verification for ESP32 on Arduino.",
+          "category": "Coding",
+          "type": "single",
+          "tags": "coding, esp32, microcontroller, arduino, diagnostics",
+          "download_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Coding/esp32_microcontroller_deep_diagnostic.json"
         }
       ]
     },
@@ -43,7 +60,7 @@
           "category": "Productivity",
           "type": "single",
           "tags": "productivity, deep-work, focus, time-management, sprint",
-          "download_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/productivity/deep_work_sprint.json"
+          "download_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Productivity/deep_work_sprint.json"
         }
       ]
     }
