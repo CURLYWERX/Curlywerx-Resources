@@ -1,0 +1,7 @@
+{
+  "title": "VEHICLE FLUID LIFETIME ANALYZER",
+  "category": "Automotive",
+  "description": "Comprehensive 2-prompt pack covering automotive fluid testing and 12V parasitic draw isolation.",
+  "tags": "automotive, fluids, electrical, multimeter, maintenance",
+  "content": "PART 1: VEHICLE FLUID LIFETIME ANALYZER\r\nAct as an experienced master mechanic. Provide a strict analysis checklist for inspecting a vehicle's fluid degradation state based on visual properties and chemical test strip readouts.\r\n\r\nThe procedure must systematically assess the following:\r\n1. Engine Oil context profiling: Evaluate color, smell for fuel dilution, and texture characteristics for a vehicle with {{Engine Mileage: 100,000}} miles.\r\n2. Automatic Transmission Fluid (ATF): Isolate oxidation indicators by checking color shifts from vibrant red to {{ATF Color State|*Light Brown, Dark Brown/Black, Pink/Milky}}.\r\n3. Brake Fluid Moisture Scan: Determine copper contamination thresholds using standard digital multimeter DC millivolt readings or test strip PPM indicators."
+}

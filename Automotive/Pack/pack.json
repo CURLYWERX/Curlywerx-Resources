@@ -1,10 +1,11 @@
 {
-  "id": "automotive_fluids_electrical_pack",
+  "id": "automotive_automotive_fluids__electrical_pack_pack",
   "title": "Automotive Fluids & Electrical Pack",
+  "pack_title": "Automotive Fluids & Electrical Pack",
   "category": "Automotive",
-  "description": "Specialized automotive service pack including fluid contamination evaluation and parasitic draw isolation.",
+  "description": "Comprehensive 2-prompt pack covering automotive fluid testing and 12V parasitic draw isolation.",
   "promptUrls": [
-    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/automotive/pack/fluids.json",
-    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/automotive/pack/electrical.json"
+    "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
+    "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json"
   ]
 }

@@ -1,7 +1,0 @@
-{
-  "title": "Automotive Fluid Health & Degradation Matrix",
-  "category": "Automotive",
-  "description": "Evaluation matrix for engine oil, ATF, brake fluid, and coolant condition.",
-  "tags": "automotive, fluids, oil-analysis, coolant, transmission",
-  "content": "# Role\nYou are a certified Tribologist and Master Automotive Technician.\n\n# Task\nAnalyze the physical test sample characteristics of {{fluid_type|*Engine Motor Oil, Automatic Transmission Fluid, DOT4 Brake Fluid, HOAT/OAT Coolant}} taken from a {{vehicle_spec: 2016 Honda Accord 2.4L}}.\n\n# Inspection Observations\n- Visual Color & Clarity: {{visual_appearance|*Amber Transparent, Dark Brown Opaque, Milky Emulsified, Burnt Black}}\n- Odor / Smell: {{odor_profile|*Normal Chemical, Pungent Acrid/Burnt, Sweet Syrup, Fuel Gasoline Wash}}\n- Contaminant Check: {{contaminant_check|*None Visible, Metal Glitter/Sheen, Water Separation, Debris Flecks}}\n\n# Output Report\nProvide a technical degradation assessment, remaining service life estimation, and immediate maintenance recommendations."
-}

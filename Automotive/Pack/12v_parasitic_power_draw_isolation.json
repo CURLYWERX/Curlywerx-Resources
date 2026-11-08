@@ -1,0 +1,7 @@
+{
+  "title": "12V PARASITIC POWER DRAW ISOLATION",
+  "category": "Automotive",
+  "description": "Comprehensive 2-prompt pack covering automotive fluid testing and 12V parasitic draw isolation.",
+  "tags": "automotive, fluids, electrical, multimeter, maintenance",
+  "content": "PART 2: 12V PARASITIC POWER DRAW ISOLATION\r\nAct as an automotive electrical specialist. Design a step-by-step diagnostic roadmap to identify and trace hidden battery drains bypassing standard module shut-down sleep cycles.\r\n\r\nThe protocol must verify:\r\n1. Voltage Drop Testing across the fuse blocks layout structure: Detail how to set a digital multimeter to millivolts (mV) and probe the back of the blade fuses without waking up the local controller network.\r\n2. Parasitic Draw thresholds: Detail standard draw baselines, flagging an error alert condition if current draw exceeds {{Max Dark Current Draw mA: 50}} mA after the vehicle enters sleep mode.\r\n3. Common fault isolation order: Provide a prioritized circuit checklist checking aftermarket accessories, glove box or trunk switches, and proximity key modules."
+}

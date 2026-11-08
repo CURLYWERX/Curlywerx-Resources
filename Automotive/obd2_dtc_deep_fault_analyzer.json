@@ -1,0 +1,7 @@
+{
+  "title": "OBD2 DTC Deep Fault Analyzer",
+  "category": "Automotive",
+  "description": "In-depth diagnostic trouble code analysis with freeze-frame interpretations and verification steps.",
+  "tags": "\u2022 automotive, obd2, dtc, diagnostics, mechanic",
+  "content": "# Role\r\nYou are a Master Diagnostic Automotive Technician and Electrical Systems Specialist.\r\n\r\n# Context\r\nI am inspecting a vehicle with active diagnostic trouble code(s) stored in the Powertrain Control Module (PCM). I need a root-cause isolation plan rather than immediately swapping parts.\r\n\r\n# Input Parameters\r\n- Vehicle: {{vehicle_year_make_model: 2018 Ford F-150 3.5L}}\r\n- Primary DTC Code: {{dtc_code: P0300}}\r\n- Operating Conditions: {{engine_condition|*Cold Start Only, Under Heavy Load, Highway Cruising, Intermittent at Idle}}\r\n\r\n# Diagnostic Protocol\r\n1. **Code Definition**: Explain the exact setting criteria and drive-cycle conditions for {{dtc_code}}.\r\n2. **Freeze-Frame Telemetry Analysis**: Detail what STFT, LTFT, MAF (g/s), and MAP values to verify.\r\n3. **Pinpoint Test Sequence**: Step-by-step electrical, vacuum, and mechanical test order to isolate the faulty component.\r\n4. **Known Technical Service Bulletins**: Flag recurring harness rubbing, sensor grounding, or PCM calibration updates common to this model."
+}

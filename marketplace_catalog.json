@@ -29,6 +29,28 @@
             "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/fluids.json",
             "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/electrical.json"
           ]
+        },
+        {
+          "id": "automotive_obd2_dtc_deep_fault_analyzer",
+          "title": "OBD2 DTC Deep Fault Analyzer",
+          "description": "In-depth diagnostic trouble code analysis with freeze-frame interpretations and verification steps.",
+          "category": "Automotive",
+          "type": "single",
+          "tags": "\u2022 automotive, obd2, dtc, diagnostics, mechanic",
+          "url": "https://jsdelivr.netAutomotive/obd2_dtc_deep_fault_analyzer.json"
+        },
+        {
+          "id": "automotive_automotive_fluids__electrical_pack_pack",
+          "title": "Automotive Fluids & Electrical Pack",
+          "description": "Comprehensive 2-prompt pack covering automotive fluid testing and 12V parasitic draw isolation.",
+          "category": "Automotive",
+          "type": "pack",
+          "tags": "automotive, fluids, electrical, multimeter, maintenance",
+          "packUrl": "https://jsdelivr.netAutomotive/Pack/pack.json",
+          "promptUrls": [
+            "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
+            "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json"
+          ]
         }
       ]
     },
@@ -74,6 +96,22 @@
           "type": "single",
           "tags": "productivity, deep-work, focus, time-management, sprint",
           "download_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Productivity/deep_work_sprint.json"
+        }
+      ]
+    },
+    {
+      "id": "botanical",
+      "name": "Botanical",
+      "description": "Botanical systems development engineering workflows",
+      "items": [
+        {
+          "id": "botanical_universal_visual_botanical_profiler",
+          "title": "Universal Visual Botanical Profiler",
+          "description": "Field identification and toxicology profiling template for vascular plant classification and safety processing.",
+          "category": "Botanical",
+          "type": "single",
+          "tags": "\u2022 botanical, foraging, plant, identification, toxicology",
+          "url": "https://jsdelivr.netBotanical/universal_visual_botanical_profiler.json"
         }
       ]
     }
