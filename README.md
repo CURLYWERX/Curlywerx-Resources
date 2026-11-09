@@ -63,10 +63,25 @@
 * Instant fuzzy search across titles, template bodies, and hashtags (`#tags`).
 * Star templates as favorites with dedicated one-tap filter toggling.
 
-### 💾 Backup, Restore & Privacy
-* 100% offline-first local database powered by Android **Room**.
-* Full JSON export and import for seamless cross-device migration and backups.
-* No personal data or prompts leave your device without your explicit action.
+### 🛡️ Secure Local Disk Backup & Tamper-Proof Import Pipeline
+* **Top Action Bar Shortcut:** 1-tap "Backup & Restore" action icon (`💾` floppy disk) positioned on the main top header row next to Marketplace, Prompt Engineer, Compact View, Favorites, and Settings.
+* **100% Offline-First Persistence:** Powered by local Android **Room** database with zero external tracking.
+* **Data Obfuscation & Slot Protection:** Serializes all templates, custom categories, AI engines, and the user's `max_allowed_templates` into an encrypted Base64 archive.
+* **SHA-256 HMAC Integrity Signature:** Computes an HMAC hash signature over the data payload using a private key securely embedded within the app, appending it to the metadata envelope.
+* **Strict Tamper Detection:** When importing from local disk (`.cwxbkp`) or clipboard, the HMAC signature is re-calculated in constant time. Any manual modification in Notepad (such as editing prompt content or inflating `max_allowed_templates`) immediately aborts the import, displays a *"Backup file corrupted or modified"* warning, and prevents any database or slot changes.
+* **Idempotent Import Engine:** Backups use an in-place composite constraint key `(title, category)`. Re-importing backup files updates existing templates in-place without duplicating records or bypassing template slot limits.
+* **Storage Access Framework (SAF):** Direct file saving to local disk and one-tap archive selection from device storage.
+
+### ⚙️ Native Android-Style Collapsible Settings Menu
+* **Expandable Category Cards:** Modular settings layout grouped into clean, expandable containers with trailing chevron indicators (`ExpandMore` / `ExpandLess`) and fluid `AnimatedVisibility` transitions.
+* **Locked Category Emoji Badges:** Consistent visual hierarchy with locked left badges:
+  * 🎨 **Appearance:** System/Light/Dark theme modes and Compact Card View toggle.
+  * 📱 **Home Screen Layout:** Pro slot counter & storage card visibility toggles.
+  * ⛺ **Categories:** Custom category management, chip rename dialogs, and deletion controls.
+  * 🌐 **AI Quick-Launch Engines:** Configurable multi-engine dispatchers and custom launch URLs.
+  * 🤖 **Prompt Engineer AI Engine:** Active synthesis AI provider selector and secure API key vaults (Claude, OpenAI, Gemini, DeepSeek).
+  * 💾 **Data Utilities:** HMAC-signed encrypted backup export, SAF disk save, integrity verification, and archive restoration.
+  * ℹ️ **About Curlywerx:** App specifications, version verification, developer info, and What's New changelog.
 
 ---
 
@@ -108,8 +123,8 @@ Curlywerx features a distinctive developer-first brand identity built around the
 ## 🔍 How to Check Your Current Version in the App
 
 1. Open **Curlywerx**.
-2. Tap the **Settings** icon (`⚙️`) in the bottom navigation bar or top right.
-3. Scroll down to the bottom **About Curlywerx** card.
+2. Tap the **Settings** icon (`⚙️`) in the top right.
+3. Tap the **About Curlywerx** (`ℹ️`) expandable card.
 4. The **Version** row displays the live installed version and build number, e.g.:
    ```
    Version: v1.9.0 (Build 11)
@@ -119,7 +134,12 @@ Curlywerx features a distinctive developer-first brand identity built around the
 
 ## 📝 Changelog / Version History
 
-### [v1.9.0] - (Build 11) - 2026-11-08
+### [v1.9.0] - (Build 11) - 2026-11-09
+* **Top Action Bar Backup & Restore Shortcut:** Added a dedicated floppy disk shortcut icon (`💾`) to the main top row header area, allowing 1-tap backup exports and verified archive restoration directly from the Home screen.
+* **Native Collapsible Settings Menu:** Redesigned `SettingsScreen` using smooth, expandable category cards with trailing chevron indicators (`ExpandMore`/`ExpandLess`), `AnimatedVisibility` slide-downs, and locked emoji badges (`🎨`, `📱`, `⛺`, `🌐`, `🤖`, `💾`, `ℹ️`).
+* **Dedicated Data Utilities Panel:** Integrated an explicit settings panel card for HMAC-SHA256 encrypted backups, local SAF disk storage, and archive restoration.
+* **Idempotent Backup Restoration Engine:** Solved duplicate template issues by enforcing unique composite key `(title, category)` resolution with Room `@Insert(onConflict = OnConflictStrategy.REPLACE)`. Successive imports update existing templates in-place without duplicating slots or records.
+* **SHA-256 HMAC Anti-Tamper Pipeline:** Embeds a private cryptographic key to detect manual Notepad tampering or slot inflation, aborting corrupted imports with clear user notifications.
 * **Online Prompt Library Marketplace:** Added TopAppBar marketplace action (`LocalLibrary` icon) connected to a public CDN repository to browse, preview, and 1-tap install community and expert prompt templates and prompt packs.
 * **Rate-Limit-Free CDN Architecture:** Uses jsDelivr CDN (`cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/...`) for rapid cached downloads without hitting GitHub API limits.
 * **Resilient URL & Casing Fallback:** Built-in auto-casing candidate resolution and raw GitHub fallback automatically handles directory casing differences on remote repositories.
