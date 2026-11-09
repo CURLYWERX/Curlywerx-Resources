@@ -130,6 +130,59 @@
           "url": "https://jsdelivr.netFishing/overland_florida_wade_fishing_tracker.json"
         }
       ]
+    },
+    {
+      "id": "bartender",
+      "name": "Bartender",
+      "description": "Bartender systems development engineering workflows",
+      "items": [
+        {
+          "id": "bartender_the_artisan_bartender__mixology_kit",
+          "title": "The Artisan Bartender & Mixology Kit",
+          "description": "A precision reference package for mixing classic cocktails and engineering completely custom craft drinks using complex flavor profiles.",
+          "category": "Bartender",
+          "type": "single",
+          "tags": "mixology, bartending, cocktail recipes, craft drinks, spirits, flavor architecture",
+          "url": "https://jsdelivr.netBartender/the_artisan_bartender__mixology_kit.json"
+        },
+        {
+          "id": "bartender_bartender_mixology_pack_pack",
+          "title": "bartender_mixology_pack",
+          "description": "A precision reference package for mixing classic cocktails and engineering completely custom craft drinks using complex flavor profiles.",
+          "category": "Bartender",
+          "type": "pack",
+          "tags": "mixology, bartending, cocktail recipes, craft drinks, spirits, flavor architecture",
+          "packUrl": "https://jsdelivr.netBartender/Pack/pack.json",
+          "promptUrls": [
+            "https://jsdelivr.netBartender/Pack/classic_cocktail_mixer.json",
+            "https://jsdelivr.netBartender/Pack/craft_flavor_engineer.json",
+            "https://jsdelivr.netBartender/Pack/cocktail_rimmer__garnish_designer.json",
+            "https://jsdelivr.netBartender/Pack/spirit_substitute_matrices.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culinary",
+      "name": "Culinary",
+      "description": "Culinary systems development engineering workflows",
+      "items": [
+        {
+          "id": "culinary_the_master_chef_gastronomy_kit_pack",
+          "title": "The Master Chef Gastronomy Kit",
+          "description": "A master-level multi-prompt suite covering technical saucier chemistry, Maillard protein engineering, and advanced knife mechanics.",
+          "category": "Culinary",
+          "type": "pack",
+          "tags": "culinary, cooking, chef techniques, masterclass, recipes, kitchen management",
+          "packUrl": "https://jsdelivr.netCulinary/Pack/pack.json",
+          "promptUrls": [
+            "https://jsdelivr.netCulinary/Pack/the_saucieer_core_architecture.json",
+            "https://jsdelivr.netCulinary/Pack/protein_searing__maillard_masterclass.json",
+            "https://jsdelivr.netCulinary/Pack/starch_architecture__emulsion.json",
+            "https://jsdelivr.netCulinary/Pack/knifework_preparation__cellular_integrity.json"
+          ]
+        }
+      ]
     }
   ]
 }

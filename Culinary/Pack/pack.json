@@ -1,0 +1,13 @@
+{
+  "id": "culinary_the_master_chef_gastronomy_kit_pack",
+  "title": "The Master Chef Gastronomy Kit",
+  "pack_title": "The Master Chef Gastronomy Kit",
+  "category": "Culinary",
+  "description": "A master-level multi-prompt suite covering technical saucier chemistry, Maillard protein engineering, and advanced knife mechanics.",
+  "promptUrls": [
+    "https://jsdelivr.netCulinary/Pack/the_saucieer_core_architecture.json",
+    "https://jsdelivr.netCulinary/Pack/protein_searing__maillard_masterclass.json",
+    "https://jsdelivr.netCulinary/Pack/starch_architecture__emulsion.json",
+    "https://jsdelivr.netCulinary/Pack/knifework_preparation__cellular_integrity.json"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "bartender_bartender_mixology_pack_pack",
+  "title": "bartender_mixology_pack",
+  "pack_title": "bartender_mixology_pack",
+  "category": "Bartender",
+  "description": "A precision reference package for mixing classic cocktails and engineering completely custom craft drinks using complex flavor profiles.",
+  "promptUrls": [
+    "https://jsdelivr.netBartender/Pack/classic_cocktail_mixer.json",
+    "https://jsdelivr.netBartender/Pack/craft_flavor_engineer.json",
+    "https://jsdelivr.netBartender/Pack/cocktail_rimmer__garnish_designer.json",
+    "https://jsdelivr.netBartender/Pack/spirit_substitute_matrices.json"
+  ]
+}
