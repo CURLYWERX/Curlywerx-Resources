@@ -51,6 +51,22 @@
             "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
             "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json"
           ]
+        },
+        {
+          "id": "automotive_obd2_diagnostics_pack_pack_v5",
+          "title": "obd2_diagnostics_pack",
+          "description": "Advanced diagnostic toolkit for tracking OBD2 DTC trouble codes, parsing live parameters (PIDs), and troubleshooting automotive electrical systems.",
+          "category": "Automotive",
+          "type": "pack",
+          "tags": "automotive, obd2, electronics, troubleshooting, electrical, pack",
+          "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/pack.json",
+          "promptUrls": [
+            "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
+            "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/obd2_trouble_code_deep_analyzer.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/live_data_pid_stream_interpreter.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/12v_parasitic_draw_and_circuit_isolation.json"
+          ]
         }
       ]
     },

@@ -1,11 +1,15 @@
 {
-  "id": "automotive_automotive_fluids__electrical_pack_pack",
-  "title": "Automotive Fluids & Electrical Pack",
-  "pack_title": "Automotive Fluids & Electrical Pack",
+  "id": "automotive_obd2_diagnostics_pack_pack_v5",
+  "title": "obd2_diagnostics_pack",
+  "pack_title": "obd2_diagnostics_pack",
   "category": "Automotive",
-  "description": "Comprehensive 2-prompt pack covering automotive fluid testing and 12V parasitic draw isolation.",
+  "description": "Advanced diagnostic toolkit for tracking OBD2 DTC trouble codes, parsing live parameters (PIDs), and troubleshooting automotive electrical systems.",
+  "total_files": 5,
   "promptUrls": [
     "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
-    "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json"
+    "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/obd2_trouble_code_deep_analyzer.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/live_data_pid_stream_interpreter.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/12v_parasitic_draw_and_circuit_isolation.json"
   ]
 }
