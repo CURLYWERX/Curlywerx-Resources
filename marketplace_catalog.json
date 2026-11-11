@@ -1,13 +1,29 @@
 {
   "name": "Curlywerx Marketplace",
   "description": "Verified community and expert prompt templates for Curlywerx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "categories": [
     {
       "id": "automotive",
       "name": "Automotive",
       "description": "Field-ready vehicle diagnostics, wiring, and maintenance protocols",
       "items": [
+        {
+          "id": "automotive_obd2_diagnostics_pack_pack_v6",
+          "title": "obd2_diagnostics_pack",
+          "description": "Advanced diagnostic toolkit for tracking OBD2 DTC trouble codes, parsing live parameters (PIDs), and troubleshooting automotive electrical systems.",
+          "category": "Automotive",
+          "type": "pack",
+          "tags": "automotive, pack",
+          "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/pack.json",
+          "promptUrls": [
+            "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
+            "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/obd2_trouble_code_deep_analyzer.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/live_data_pid_stream_interpreter.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/12v_parasitic_draw_and_circuit_isolation.json"
+          ]
+        },
         {
           "id": "automotive_obd2_fault_deep_analyzer",
           "title": "OBD2 DTC Deep Fault Analyzer",
@@ -18,26 +34,6 @@
           "download_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/obd2_fault.json"
         },
         {
-          "id": "automotive_obd2_diagnostics_pack_pack_v6",
-          "title": "Automotive Fluids & Electrical Pack",
-          "description": "Comprehensive 2-prompt pack covering automotive fluid testing and 12V parasitic draw isolation.",
-          "category": "Automotive",
-          "type": "pack",
-          "tags": "automotive, fluids, electrical, multimeter, maintenance",
-          "pack_url": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/pack.json",
-          "prompt_urls": [
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/fluids.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/electrical.json"
-          ],
-          "promptUrls": [
-            "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
-            "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/obd2_trouble_code_deep_analyzer.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/live_data_pid_stream_interpreter.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/12v_parasitic_draw_and_circuit_isolation.json"
-          ]
-        },
-        {
           "id": "automotive_obd2_dtc_deep_fault_analyzer",
           "title": "OBD2 DTC Deep Fault Analyzer",
           "description": "In-depth diagnostic trouble code analysis with freeze-frame interpretations and verification steps.",
@@ -45,38 +41,6 @@
           "type": "single",
           "tags": "automotive, obd2, dtc, diagnostics, mechanic",
           "url": "https://jsdelivr.netAutomotive/obd2_dtc_deep_fault_analyzer.json"
-        },
-        {
-          "id": "automotive_obd2_diagnostics_pack_pack_v6",
-          "title": "Automotive Fluids & Electrical Pack",
-          "description": "Comprehensive 2-prompt pack covering automotive fluid testing and 12V parasitic draw isolation.",
-          "category": "Automotive",
-          "type": "pack",
-          "tags": "automotive, fluids, electrical, multimeter, maintenance",
-          "packUrl": "https://jsdelivr.netAutomotive/Pack/pack.json",
-          "promptUrls": [
-            "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
-            "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/obd2_trouble_code_deep_analyzer.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/live_data_pid_stream_interpreter.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/12v_parasitic_draw_and_circuit_isolation.json"
-          ]
-        },
-        {
-          "id": "automotive_obd2_diagnostics_pack_pack_v6",
-          "title": "obd2_diagnostics_pack",
-          "description": "Advanced diagnostic toolkit for tracking OBD2 DTC trouble codes, parsing live parameters (PIDs), and troubleshooting automotive electrical systems.",
-          "category": "Automotive",
-          "type": "pack",
-          "tags": "automotive, obd2, electronics, troubleshooting, electrical, pack",
-          "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/pack.json",
-          "promptUrls": [
-            "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
-            "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/obd2_trouble_code_deep_analyzer.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/live_data_pid_stream_interpreter.json",
-            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/12v_parasitic_draw_and_circuit_isolation.json"
-          ]
         }
       ]
     },
@@ -86,6 +50,19 @@
       "description": "Embedded systems, microcontroller debugging, firmware setups, and software engineering",
       "items": [
         {
+          "id": "coding_esp32_industrial_iot_pack_pack",
+          "title": "ESP32 Industrial IoT Pack",
+          "description": "Comprehensive 2-part development toolkit covering low-power deep sleep optimization and secure wireless fallback routines.",
+          "category": "Coding",
+          "type": "pack",
+          "tags": "coding, pack",
+          "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Coding/Pack/pack.json",
+          "promptUrls": [
+            "https://jsdelivr.netCoding/Pack/secure_mesh_wireless_fallback.json",
+            "https://jsdelivr.netCoding/Pack/microamp_hardware_deep_sleep_optimization.json"
+          ]
+        },
+        {
           "id": "coding_esp32_microcontroller_deep_diagnostic",
           "title": "ESP32 Microcontroller Deep Diagnostic",
           "description": "Hardware diagnostic, pinout verification, and crash debugging for ESP32 systems.",
@@ -93,19 +70,6 @@
           "type": "single",
           "tags": "coding, esp32, embedded, hardware",
           "url": "https://jsdelivr.netCoding/esp32_microcontroller_deep_diagnostic.json"
-        },
-        {
-          "id": "coding_esp32_industrial_iot_pack_pack",
-          "title": "ESP32 Industrial IoT Pack",
-          "description": "Comprehensive 2-part development toolkit covering low-power deep sleep optimization and secure wireless fallback routines.",
-          "category": "Coding",
-          "type": "pack",
-          "tags": "\u2022 coding, esp32, iot, firmware, sleep, mesh",
-          "packUrl": "https://jsdelivr.netCoding/Pack/pack.json",
-          "promptUrls": [
-            "https://jsdelivr.netCoding/Pack/secure_mesh_wireless_fallback.json",
-            "https://jsdelivr.netCoding/Pack/microamp_hardware_deep_sleep_optimization.json"
-          ]
         }
       ]
     },
@@ -163,22 +127,13 @@
       "description": "Bartender systems development engineering workflows",
       "items": [
         {
-          "id": "bartender_the_artisan_bartender__mixology_kit",
-          "title": "The Artisan Bartender & Mixology Kit",
-          "description": "A precision reference package for mixing classic cocktails and engineering completely custom craft drinks using complex flavor profiles.",
-          "category": "Bartender",
-          "type": "single",
-          "tags": "mixology, bartending, cocktail recipes, craft drinks, spirits, flavor architecture",
-          "url": "https://jsdelivr.netBartender/the_artisan_bartender__mixology_kit.json"
-        },
-        {
           "id": "bartender_bartender_mixology_pack_pack",
           "title": "bartender_mixology_pack",
           "description": "A precision reference package for mixing classic cocktails and engineering completely custom craft drinks using complex flavor profiles.",
           "category": "Bartender",
           "type": "pack",
-          "tags": "mixology, bartending, cocktail recipes, craft drinks, spirits, flavor architecture",
-          "packUrl": "https://jsdelivr.netBartender/Pack/pack.json",
+          "tags": "bartender, pack",
+          "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/pack.json",
           "promptUrls": [
             "https://jsdelivr.netBartender/Pack/classic_cocktail_mixer.json",
             "https://jsdelivr.netBartender/Pack/craft_flavor_engineer.json",
@@ -186,6 +141,15 @@
             "https://jsdelivr.netBartender/Pack/spirit_substitute_matrices.json",
             "https://jsdelivr.netBartender/Pack/molecular_ice_architecture__dilution_calculator.json"
           ]
+        },
+        {
+          "id": "bartender_the_artisan_bartender__mixology_kit",
+          "title": "The Artisan Bartender & Mixology Kit",
+          "description": "A precision reference package for mixing classic cocktails and engineering completely custom craft drinks using complex flavor profiles.",
+          "category": "Bartender",
+          "type": "single",
+          "tags": "mixology, bartending, cocktail recipes, craft drinks, spirits, flavor architecture",
+          "url": "https://jsdelivr.netBartender/the_artisan_bartender__mixology_kit.json"
         }
       ]
     },
@@ -200,8 +164,8 @@
           "description": "A master-level multi-prompt suite covering technical saucier chemistry, Maillard protein engineering, and advanced knife mechanics.",
           "category": "Culinary",
           "type": "pack",
-          "tags": "culinary, cooking, chef techniques, masterclass, recipes, kitchen management",
-          "packUrl": "https://jsdelivr.netCulinary/Pack/pack.json",
+          "tags": "culinary, pack",
+          "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/pack.json",
           "promptUrls": [
             "https://jsdelivr.netCulinary/Pack/the_saucieer_core_architecture.json",
             "https://jsdelivr.netCulinary/Pack/protein_searing__maillard_masterclass.json",
