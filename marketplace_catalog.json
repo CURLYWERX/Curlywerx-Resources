@@ -1,7 +1,7 @@
 {
   "name": "Curlywerx Marketplace",
   "description": "Verified community and expert prompt templates for Curlywerx",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "categories": [
     {
       "id": "automotive",
@@ -9,7 +9,7 @@
       "description": "Field-ready vehicle diagnostics, wiring, and maintenance protocols",
       "items": [
         {
-          "id": "automotive_obd2_diagnostics_pack_pack_v11",
+          "id": "automotive_obd2_diagnostics_pack_pack_v12",
           "title": "obd2_diagnostics_pack",
           "description": "Advanced diagnostic toolkit for tracking OBD2 DTC trouble codes, parsing live parameters (PIDs), and troubleshooting automotive electrical systems.",
           "category": "Automotive",
