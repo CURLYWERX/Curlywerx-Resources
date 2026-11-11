@@ -77,7 +77,7 @@
 * **Locked Category Emoji Badges:** Consistent visual hierarchy with locked left badges:
   * 🎨 **Appearance:** System/Light/Dark theme modes and Compact Card View toggle.
   * 📱 **Home Screen Layout:** Pro slot counter & storage card visibility toggles.
-  * ⛺ **Categories:** Custom category management, chip rename dialogs, and deletion controls.
+  * ⛺ **Categories:** Complete category management — rename and delete any category (both built-in defaults and custom user categories alike, with safe automatic reassignment of assigned templates to General).
   * 🌐 **AI Quick-Launch Engines:** Configurable multi-engine dispatchers and custom launch URLs.
   * 🤖 **Prompt Engineer AI Engine:** Active synthesis AI provider selector and secure API key vaults (Claude, OpenAI, Gemini, DeepSeek).
   * 💾 **Data Utilities:** HMAC-signed encrypted backup export, SAF disk save, integrity verification, and archive restoration.
@@ -135,6 +135,14 @@ Curlywerx features a distinctive developer-first brand identity built around the
 ## 📝 Changelog / Version History
 
 ### [v1.9.0] - (Build 11) - 2026-11-09
+* **Custom Theme & Card Gradient Studio:**
+  * Added 3-way theme mode toggle (`Light Mode`, `Dark Mode`, `Custom Mode`) in the expandable "Appearance" settings section.
+  * Embedded real-time HSV sliders (`Hue`, `Saturation`, `Brightness`) for Gradient Start Color, Gradient End Color, App Background Color, and Soft Text Color.
+  * Dynamic `Brush.linearGradient` card backgrounds with dual-color illuminated borders applied directly to prompt template cards.
+  * Full background scaffold adaptation that updates to the chosen background color in custom mode.
+  * Live interactive card preview embedded directly into the settings palette controller.
+  * Safety Reset mechanism with a 1-tap "Reset to Default" button restoring Midnight Deep Purple (`#130924`), Soft Lavender (`#E9D5FF`), and purple-to-blue gradient cards.
+* **Universal Category Management (Delete & Rename Defaults):** Users can now delete built-in default categories exactly like user-added categories, as well as rename them. Templates assigned to a deleted category are automatically and safely reassigned to `"General"`, and startup database routines respect user deletions without resurrecting removed defaults.
 * **Top Action Bar Backup & Restore Shortcut:** Added a dedicated floppy disk shortcut icon (`💾`) to the main top row header area, allowing 1-tap backup exports and verified archive restoration directly from the Home screen.
 * **Native Collapsible Settings Menu:** Redesigned `SettingsScreen` using smooth, expandable category cards with trailing chevron indicators (`ExpandMore`/`ExpandLess`), `AnimatedVisibility` slide-downs, and locked emoji badges (`🎨`, `📱`, `⛺`, `🌐`, `🤖`, `💾`, `ℹ️`).
 * **Dedicated Data Utilities Panel:** Integrated an explicit settings panel card for HMAC-SHA256 encrypted backups, local SAF disk storage, and archive restoration.
@@ -155,8 +163,35 @@ Curlywerx features a distinctive developer-first brand identity built around the
 * **Dynamic Custom Categories:** Adding a template with a custom category name automatically adds that category to the global database table and immediately displays it in Home filter chips and category pickers.
 * **Strict Alphabetical AI Engine Ordering:** All default and user-added custom AI engines (e.g., Mistral, Copilot, Cohere) are strictly and dynamically sorted in alphabetical order.
 * **Settings & About Updates:** Updated About card with Prompt Marketplace and Prompt Engineer info, and integrated v1.9.0 What's New release notes.
+### [v1.9.1] - (Build 11) - 2026-11-11
+* **Dedicated Professional Scalable Splash Screen:**
+  * Replaced Android's default minimal system icon with a 2-second branded splash experience (`SplashScreen.kt`) matching the app's visual identity.
+  * Prominent, scalable Curlywerx logo (`ic_curlywerx_logo`) with adaptive sizing across all phone and tablet viewports (`BoxWithConstraints`).
+  * Ethereal cyan/purple ambient halo glow with animated pulse and smooth fade/scale entrance transitions.
+  * Clean, bold white modern brand typography (`Curlywerx`) positioned below the logo.
+  * Window background color configuration in `themes.xml` (`#05060A`) to ensure zero flash on cold starts.
+  * `rememberSaveable` state prevents repeated playback during device screen rotation or configuration changes.
+* **Instant Live Prompt View Refresh Upon Edit Save:**
+  * Fixed stale Compose `remember` closures in `TemplateDetailScreen.kt` by keying `parsedVariables`, `filledPrompt`, and `promptForLaunch` with `(template.id, template.content, template.updatedAt)`.
+  * Added `LaunchedEffect` synchronization for variable key additions/removals so edited prompt content and variables immediately reflect in the Live Prompt View upon saving without needing to navigate back and forth.
+  * Screen resolution in `MainActivity.kt` now compares `updatedAt` between `selectedTemplate` and Room flow to always supply the freshest template instance.
+* **New Default Category "Bartender":**
+  * Added "Bartender" to built-in default categories.
+  * Moved the built-in "Master Bartender / Mixologist" template from "Culinary" to "Bartender" with automated schema migration.
+  * Added "Bartender" craft cocktail prompt architecture to the Universal Prompt Engineer (Claude API, Web, and offline synthesizer).
+* **Live Dynamic Placeholder Syntax Highlighting (Lime Green):**
+  * All dynamic placeholder variables and choices (e.g. `{{Focus_area}}`, `{{Tone|Professional, Casual}}`, `{{word_count: 500}}`) are prominently styled in high-visibility Lime Green (`#39FF14`) in both the Live Prompt Preview cards and the prompt editor screen.
+* **Main Top Bar Backup & Restore Shortcut:**
+  * Added direct 1-tap floppy disk shortcut (💾) to the top action bar next to Settings, Favorites, and Marketplace for immediate local JSON backup and restore.
+* **Collapsible / Expandable Card Menu in Settings:**
+  * Refactored settings menu into expandable category containers ("Appearance", "Home Screen Layout", "Categories", "Data Utilities") with animated transitions and chevron indicators.
+* **Custom Theme & Dual HSV Gradient Sliders:**
+  * Added Custom Theme mode with live HSV color sliders controlling background, soft text, and dual-color start/end linear gradient card containers (`Brush.linearGradient`).
+  * Added 1-tap "Reset to Default" safety button.
+* **Built-in Category Management:**
+  * Built-in categories (including "Automotive", formerly "Auto Repair") can now be renamed or deleted just like user-added categories.
 
-### [v1.8.0] - (Build 10) - 2026-10-08
+### [v1.9.0] - (Build 11) - 2026-10-10
 * **Template Architect Variable Engine Alignment:** Upgraded the Universal Prompt Engineer (API, Web, and Offline synthesizer) to strictly follow the full mobile variable syntax specification.
 * **Strict Variable Naming:** Variable placeholders generated by AI now strictly use underscores without spaces: `{{variable_name}}`.
 * **Alphabetical Option Choice Chips:** Option choices `{{variable_name|Option1, Option2, ...}}` are strictly sorted alphabetically by AI with unlimited choices allowed.
