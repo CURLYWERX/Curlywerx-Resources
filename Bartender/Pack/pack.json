@@ -5,10 +5,11 @@
   "category": "Bartender",
   "description": "A precision reference package for mixing classic cocktails and engineering completely custom craft drinks using complex flavor profiles.",
   "promptUrls": [
-    "https://jsdelivr.netBartender/Pack/classic_cocktail_mixer.json",
-    "https://jsdelivr.netBartender/Pack/craft_flavor_engineer.json",
-    "https://jsdelivr.netBartender/Pack/cocktail_rimmer__garnish_designer.json",
-    "https://jsdelivr.netBartender/Pack/spirit_substitute_matrices.json",
-    "https://jsdelivr.netBartender/Pack/molecular_ice_architecture__dilution_calculator.json"
-  ]
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/classic_cocktail_mixer.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/craft_flavor_engineer.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/cocktail_rimmer__garnish_designer.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/spirit_substitute_matrices.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/molecular_ice_architecture__dilution_calculator.json"
+  ],
+  "total_files": 5
 }

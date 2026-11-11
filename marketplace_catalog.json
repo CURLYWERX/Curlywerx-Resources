@@ -1,7 +1,7 @@
 {
   "name": "Curlywerx Marketplace",
   "description": "Verified community and expert prompt templates for Curlywerx",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "categories": [
     {
       "id": "automotive",
@@ -9,7 +9,7 @@
       "description": "Field-ready vehicle diagnostics, wiring, and maintenance protocols",
       "items": [
         {
-          "id": "automotive_obd2_diagnostics_pack_pack_v9",
+          "id": "automotive_obd2_diagnostics_pack_pack_v10",
           "title": "obd2_diagnostics_pack",
           "description": "Advanced diagnostic toolkit for tracking OBD2 DTC trouble codes, parsing live parameters (PIDs), and troubleshooting automotive electrical systems.",
           "category": "Automotive",
@@ -17,8 +17,8 @@
           "tags": "automotive, pack",
           "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/pack.json",
           "promptUrls": [
-            "https://jsdelivr.netAutomotive/Pack/vehicle_fluid_lifetime_analyzer.json",
-            "https://jsdelivr.netAutomotive/Pack/12v_parasitic_power_draw_isolation.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/vehicle_fluid_lifetime_analyzer.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/12v_parasitic_power_draw_isolation.json",
             "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/obd2_trouble_code_deep_analyzer.json",
             "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/live_data_pid_stream_interpreter.json",
             "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Automotive/Pack/12v_parasitic_draw_and_circuit_isolation.json"
@@ -58,8 +58,8 @@
           "tags": "coding, pack",
           "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Coding/Pack/pack.json",
           "promptUrls": [
-            "https://jsdelivr.netCoding/Pack/secure_mesh_wireless_fallback.json",
-            "https://jsdelivr.netCoding/Pack/microamp_hardware_deep_sleep_optimization.json"
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Coding/Pack/secure_mesh_wireless_fallback.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Coding/Pack/microamp_hardware_deep_sleep_optimization.json"
           ]
         },
         {
@@ -135,11 +135,11 @@
           "tags": "bartender, pack",
           "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/pack.json",
           "promptUrls": [
-            "https://jsdelivr.netBartender/Pack/classic_cocktail_mixer.json",
-            "https://jsdelivr.netBartender/Pack/craft_flavor_engineer.json",
-            "https://jsdelivr.netBartender/Pack/cocktail_rimmer__garnish_designer.json",
-            "https://jsdelivr.netBartender/Pack/spirit_substitute_matrices.json",
-            "https://jsdelivr.netBartender/Pack/molecular_ice_architecture__dilution_calculator.json"
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/classic_cocktail_mixer.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/craft_flavor_engineer.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/cocktail_rimmer__garnish_designer.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/spirit_substitute_matrices.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Bartender/Pack/molecular_ice_architecture__dilution_calculator.json"
           ]
         },
         {
@@ -167,10 +167,10 @@
           "tags": "culinary, pack",
           "packUrl": "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/pack.json",
           "promptUrls": [
-            "https://jsdelivr.netCulinary/Pack/the_saucieer_core_architecture.json",
-            "https://jsdelivr.netCulinary/Pack/protein_searing__maillard_masterclass.json",
-            "https://jsdelivr.netCulinary/Pack/starch_architecture__emulsion.json",
-            "https://jsdelivr.netCulinary/Pack/knifework_preparation__cellular_integrity.json"
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/the_saucieer_core_architecture.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/protein_searing__maillard_masterclass.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/starch_architecture__emulsion.json",
+            "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/knifework_preparation__cellular_integrity.json"
           ]
         }
       ]

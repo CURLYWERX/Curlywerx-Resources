@@ -5,9 +5,10 @@
   "category": "Culinary",
   "description": "A master-level multi-prompt suite covering technical saucier chemistry, Maillard protein engineering, and advanced knife mechanics.",
   "promptUrls": [
-    "https://jsdelivr.netCulinary/Pack/the_saucieer_core_architecture.json",
-    "https://jsdelivr.netCulinary/Pack/protein_searing__maillard_masterclass.json",
-    "https://jsdelivr.netCulinary/Pack/starch_architecture__emulsion.json",
-    "https://jsdelivr.netCulinary/Pack/knifework_preparation__cellular_integrity.json"
-  ]
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/the_saucieer_core_architecture.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/protein_searing__maillard_masterclass.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/starch_architecture__emulsion.json",
+    "https://cdn.jsdelivr.net/gh/CURLYWERX/Curlywerx-Resources@main/Culinary/Pack/knifework_preparation__cellular_integrity.json"
+  ],
+  "total_files": 4
 }
